@@ -6,7 +6,7 @@ body{
 
 main{
     width: 40vw;
-    background-color: hsl(330, 100%, 98%);
+    background-color: hsl(0, 0%, 100%);
     position: relative;
     left: 27vw;
     padding: 3vw;
@@ -15,11 +15,11 @@ main{
 
 .main > img{
     max-width: 100%;
-    border-radius: 0.8em;
+    border-radius: 0.9em;
 }
 
 .separation{
-    height: 1px;
+    height: 0.01rem;
     background-color: hsl(30, 18%, 87%);
 }
 
@@ -29,6 +29,7 @@ h1 {
     font-size: 2.3rem;
     letter-spacing: 0.15rem;
     color: hsl(24, 5%, 18%);
+    margin-bottom: 0.8rem;
 }
 
 h2{
@@ -43,10 +44,15 @@ h4{
     font-weight: 400 bolder;
     font-size: 1.3rem;
     color: hsl(332, 51%, 32%);
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 1.2rem;
 }
 
-ul{
-    list-style-type: square;
+#prep-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.8rem;
 }
 
 p,li{
@@ -58,10 +64,12 @@ p,li{
 
 li{
     color: hsl(14, 45%, 36%);
+    margin-bottom: 0.8rem;
 }
 
 ul,ol{
     padding-left: 1.5rem;
+    padding-bottom: 0.7rem;
 }
 
 .prep-time li{
@@ -86,7 +94,9 @@ li > span , li > div{
     padding-left: 1rem;
 }
 
-
+.prep-time {
+    margin-left: 1.5rem;
+}
 
 table{
     width: 100%;
@@ -104,11 +114,24 @@ tr:nth-child(2){
 td{
     font-family: "Outfit";
     color: hsl(30, 10%, 34%);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;  
+}
+
+td:nth-child(1){
+    position: relative;
+    left: 1.8rem;
 }
 
 td:nth-of-type(2){
     font-weight: bolder;
     color: hsl(14, 45%, 36%);
+}
+
+.attribution{
+    position: relative;
+    left: -10rem;
+    top: 1.5rem;
 }
 
 
