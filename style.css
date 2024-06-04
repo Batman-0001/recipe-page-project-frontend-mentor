@@ -1,0 +1,114 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+main{
+    width: 40vw;
+    background-color: hsl(330, 100%, 98%);
+    position: relative;
+    left: 27vw;
+    padding: 3vw;
+    border-radius: 1.5em;
+}
+
+.main > img{
+    max-width: 100%;
+    border-radius: 0.8em;
+}
+
+.separation{
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}
+
+h1 {
+    font-family: "Young serif";
+    font-weight: 700;
+    font-size: 2.3rem;
+    letter-spacing: 0.15rem;
+    color: hsl(24, 5%, 18%);
+}
+
+h2{
+    font-family: "Young serif";
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: hsl(14, 45%, 36%);
+}
+
+h4{
+    font-family: "Outfit";
+    font-weight: 400 bolder;
+    font-size: 1.3rem;
+    color: hsl(332, 51%, 32%);
+}
+
+ul{
+    list-style-type: square;
+}
+
+p,li{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+li{
+    color: hsl(14, 45%, 36%);
+}
+
+ul,ol{
+    padding-left: 1.5rem;
+}
+
+.prep-time li{
+    color: hsl(332, 51%, 32%);
+}
+
+li > span , li > div{
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-time > li > span > span , .instructions > ol > li > div > span {
+    font-weight: bolder;
+}
+
+.ingredients > li > span{
+    padding-left: 1.1rem;
+}
+.prep-time > li > span{
+    padding-left: 1.2rem;
+}
+.instructions > ol > li > div{
+    padding-left: 1rem;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(2n+1){
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr:nth-child(2){
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td{
+    font-family: "Outfit";
+    color: hsl(30, 10%, 34%);
+}
+
+td:nth-of-type(2){
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%);
+}
+
+
