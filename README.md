@@ -30,8 +30,8 @@ This is a basic recipe page which is built by using HTML and CSS only.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Batman-0001/recipe-page-project-frontend-mentor)
+- Live Site URL: [Add live site URL here](https://batman-0001.github.io/recipe-page-project-frontend-mentor/)
 
 ## My process
 
