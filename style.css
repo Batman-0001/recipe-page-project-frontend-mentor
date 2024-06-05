@@ -80,14 +80,14 @@ li > span , li > div{
     color: hsl(30, 10%, 34%);
 }
 
-.prep-time > li > span > span , .instructions > ol > li > div > span {
+.prep-time > li > div > span , .instructions > ol > li > div > span {
     font-weight: bolder;
 }
 
-.ingredients > li > span{
+.ingredients > li > div{
     padding-left: 1.1rem;
 }
-.prep-time > li > span{
+.prep-time > li > div{
     padding-left: 1.2rem;
 }
 .instructions > ol > li > div{
